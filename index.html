@@ -3,7 +3,7 @@
     <head>
         <!--meta charset-->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Name of Website</title>
+        <title>Open Library</title>
         
         <!--connects css to html-->
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
@@ -24,13 +24,34 @@
         <link rel="shortcut icon" type="image/png" href="img/childIcon.png">
     </head>
     <body>
+        <div class="jumbotron">
+            <!--title-->
+            <h1>Open Library</h1>
+            <!--instructions-->
+            <p>Please enter the ISB of the book you'd like to retrieve</p>
+            <!--queries the book's ISB 0451526538-->
+            <label>ISBN &nbsp;&nbsp;&nbsp;</label><input type="text" id="bookISBN" placeholder="Enter an ISBN number...">&nbsp;&nbsp;&nbsp;
+            <!--creates button-->
+            <button class="btn btn-info"> Search! </button>
+        </div><br>
         
-        <br><br>
-        <p>List all array items, with keys and values:</p>
-        <p id="demo"></p>
-        <br><br>
-        <p>What's in my basket?</p>
-        <p id="basket"></p>
+        <div class="row">
+            <div id="img"></div>
+            <div id="title"></div>
+            <div id="author"></div>
+            <div id="publishDate"></div>
+            <div id="publisher"></div>
+            <div id="isbn"></div>
+            <div id="numOfPages"></div>
+        </div>
+        
+        
+        <!--<br><br>-->
+        <!--<p>List all array items, with keys and values:</p>-->
+        <!--<p id="demo"></p>-->
+        <!--<br><br>-->
+        <!--<p>What's in my basket?</p>-->
+        <!--<p id="basket"></p>-->
         
         
         <footer>

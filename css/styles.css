@@ -1,9 +1,10 @@
-p{
-    color: blue;
-    margin: 100px;
+.edit{
     margin-top: 50px;
 }
 
+.image{
+    padding-left: 100px;
+}
 
 
 /*borders above navigation bar & above footer*/
