@@ -1,4 +1,4 @@
 # Jennifer-CST336-MIDTERM
 
-Name: Jennifer Lopez
+Name: Jennifer Lopez<br>
 Otter ID: 003296136
