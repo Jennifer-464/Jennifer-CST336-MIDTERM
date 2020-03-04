@@ -1,0 +1,26 @@
+p{
+    color: blue;
+    margin: 100px;
+    margin-top: 50px;
+}
+
+
+
+/*borders above navigation bar & above footer*/
+hr{
+    width: 80%;
+    border-color: rgb(0, 115, 153);
+}
+
+/*csumb icon*/
+footer img{
+    width: 10%;
+    height: 10%;
+    padding: 2px;
+    border: 1px rgb(0, 115, 153) solid;
+}
+
+/*puts everything in the footer at the center*/
+footer{
+    text-align: center;
+}
